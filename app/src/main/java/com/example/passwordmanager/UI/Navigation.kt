@@ -6,7 +6,6 @@ import android.content.Context
 import androidx.compose.runtime.*
 import androidx.navigation.compose.*
 import com.example.passwordmanager.UI.screens.*
-import com.example.passwordmanager.data.*
 import com.example.passwordmanager.UI.screens.LoginScreen
 
 @Composable
@@ -16,7 +15,7 @@ fun Navigation(context: Context = LocalContext.current) {
     var showLogin by remember { mutableStateOf(false) }
 
     if (isAuthenticated) {
-        MainAppScaffold(navController = navController)  // tutaj wstawiamy nasz scaffold z drawerem i nav hostem
+        MainAppScaffold(navController = navController)
     } else if (showLogin) {
         LoginScreen(onAuthenticated = { isAuthenticated = true })
     } else {
