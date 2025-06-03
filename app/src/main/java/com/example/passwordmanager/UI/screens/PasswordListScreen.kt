@@ -1,4 +1,4 @@
-package com.example.passwordmanager.UI.screens
+package com.example.passwordmanager.ui.screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -14,7 +14,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.passwordmanager.data.PasswordRepository
-import com.example.passwordmanager.data.PasswordEntry
 
 @Composable
 fun PasswordListScreen(navController: NavController) {

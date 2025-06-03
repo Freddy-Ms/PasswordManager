@@ -1,4 +1,4 @@
-package com.example.passwordmanager.UI
+package com.example.passwordmanager.ui
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -17,7 +17,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.example.passwordmanager.UI.screens.*
+import com.example.passwordmanager.ui.screens.*
 import com.example.passwordmanager.data.PasswordEntry
 import kotlinx.coroutines.launch
 

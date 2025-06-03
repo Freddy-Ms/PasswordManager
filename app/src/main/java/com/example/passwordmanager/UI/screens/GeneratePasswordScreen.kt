@@ -1,4 +1,4 @@
-package com.example.passwordmanager.UI.screens
+package com.example.passwordmanager.ui.screens
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -13,7 +13,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 
 @Composable
 fun GeneratePasswordScreen() {
@@ -25,18 +24,18 @@ fun GeneratePasswordScreen() {
             .fillMaxSize()
             .padding(16.dp),
         verticalArrangement = Arrangement.Top,
-        horizontalAlignment = Alignment.CenterHorizontally // poziome wyśrodkowanie całej kolumny
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(text = "Generated Password:", style = MaterialTheme.typography.bodyLarge)
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Box na hasło z ikoną kopiowania
+
         Surface(
             shape = MaterialTheme.shapes.medium,
             tonalElevation = 4.dp,
             modifier = Modifier
-                .fillMaxWidth(0.9f)  // 90% szerokości ekranu
+                .fillMaxWidth(0.9f)
                 .height(56.dp)
         ) {
             Row(

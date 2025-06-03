@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
 
 import androidx.activity.compose.setContent
-import com.example.passwordmanager.UI.Navigation
+import com.example.passwordmanager.ui.Navigation
 
 
 class MainActivity : FragmentActivity() {

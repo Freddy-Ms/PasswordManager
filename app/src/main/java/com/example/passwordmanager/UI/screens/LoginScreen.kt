@@ -1,4 +1,4 @@
-package com.example.passwordmanager.UI.screens
+package com.example.passwordmanager.ui.screens
 
 import android.content.Intent
 import android.provider.Settings
